@@ -1,0 +1,96 @@
+@font-face{
+  font-family: "Architects Pen"; /* Define a font family name */
+  src: url("Fonts/Architects Pen.ttf") format('truetype'); /* Specify the path to the font file */
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/laptop.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.logo-link {
+  text-decoration: none; /* Remove underlining from the anchor tag */
+  display: flex; /* Use flexbox to align logo and logoname horizontally */
+  align-items: center; /* Align items vertically in the center */
+}
+.logo {
+  width: 50px;
+  height: auto;
+}
+.logo:hover {
+  cursor: pointer;
+}
+.namelogo {
+  color: blanchedalmond;
+  font-size: 40px;
+  margin-left: 10px; /* Adjust the left margin as needed */
+  font-family: 'Architects Pen', sans-serif;
+  text-decoration: none;
+}
+.namelogo:hover {
+  cursor: pointer;
+}
+.navbar{
+  width:85%;
+  margin:auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+  }
+.navbar ul li a{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}  
+.navbar ul li::after{
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: .4s;
+}
+.navbar ul li:hover::after{
+  width: 100%;
+
+}
+.content{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+.content h1{
+  font-size: 70px;
+  margin-top: 80px;
+}
+.content p{
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.bio{
+  color: white;
+  text-align: justify;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  
+}
