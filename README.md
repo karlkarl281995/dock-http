@@ -6,6 +6,13 @@ This project is designed for a macOS environment. While some commands may be mac
 For Docker and Git installations, you can simply follow the respective OS installer download links.
 
 
+Key Takeaways:
+
+Branch Specification: Ensure to choose the appropriate branch specifier (e.g., Master or Main) depending on the configuration of your local repository. This ensures smooth synchronization between your local and remote repositories.
+
+If you have issues troubleshooting GIT and your local repo Go to bottom of this guide to [🔑 Secure GitHub Connection Guide]
+
+
 **Section I**
 
 1. Fork the repository into your GitHub account: [dock-http](https://github.com/karlkarl281995/dock-http).
@@ -87,3 +94,21 @@ https://github.com/karlkarl281995/dock-http/blob/main/dock-http%20w%3A%20picture
 11. Congratulations! You have successfully deployed your Apache Webserver using Docker. 
 
 Feel free to let me know if you need further adjustments or have any other requests!
+
+
+🔑 Secure GitHub Connection Guide
+
+Step-by-Step Setup:
+
+Navigate to Settings: Go to your GitHub account settings, then select "Developer Settings."
+
+Generate Key Pair Token: Under "Developer Settings," locate the option to generate a key pair token (classic).
+
+Select First Box: Ensure to check the first box of each line to grant appropriate permissions.
+
+Save Token: Once generated, save the token key pair securely, either in a clipboard or a notes file. It's crucial not to lose this token.
+
+Usage during Git Push: When prompted during a Git push operation, enter this token into the password field.
+
+Success: You're all set! Your GitHub connection is now secured using the generated token.
+
