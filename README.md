@@ -97,8 +97,10 @@ Feel free to let me know if you need further adjustments or have any other reque
 
 The last important thing to add it push your changes from your local repo to your repository.
 
-git add .
+git add . 
+
 git commit -m "Dockerfile"
+
 git push origin main
 
 
