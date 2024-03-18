@@ -95,6 +95,12 @@ https://github.com/karlkarl281995/dock-http/blob/main/dock-http%20w%3A%20picture
 
 Feel free to let me know if you need further adjustments or have any other requests!
 
+The last important thing to add it push your changes from your local repo to your repository.
+
+git add .
+git commit -m "Dockerfile"
+git push origin main
+
 
 🔑 Secure GitHub Connection Guide
 
