@@ -3,3 +3,20 @@ service:
   identifier: dockercompose
   orgIdentifier: default
   projectIdentifier: dockhttp1
+  serviceDefinition:
+    spec:
+      configFiles:
+        - configFile:
+            identifier: docker-compose.yml
+            type: Github
+            spec:
+              store:
+                type: Github
+                spec:
+                  connectorRef: account.Github_OAuth_1712431655753
+                  gitFetchType: Branch
+                  paths:
+                    - git@github.com:karlkarl281995/dock-http.git
+                  repoName: dock-http
+                  branch: main
+    type: Ssh
