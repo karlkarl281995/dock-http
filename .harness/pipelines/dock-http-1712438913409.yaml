@@ -29,8 +29,8 @@ pipeline:
                       #!/bin/bash
                       set -e
 
-                      # Clone the repository containing the Docker Compose file
-                      git clone https://github.com/karlkarl281995/dock-http.git .
+                      # Navigate to the directory containing the Docker Compose file
+                      cd .harness
 
                       # Build and start the Docker containers defined in the Docker Compose file
                       docker-compose up -d
