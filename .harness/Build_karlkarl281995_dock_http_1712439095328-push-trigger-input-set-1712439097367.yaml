@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_karlkarl281995_dock_http_1712439095328-push-trigger-input-set
+  identifier: Build_karlkarl281995_dock_http_1712439095328pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: dockhttp1
+  pipeline:
+    identifier: Build_karlkarl281995_dock_http_1712439095328
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>

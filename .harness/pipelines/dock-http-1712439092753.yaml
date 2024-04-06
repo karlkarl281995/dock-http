@@ -1,0 +1,35 @@
+pipeline:
+  identifier: Build_karlkarl281995_dock_http_1712439095328
+  name: Build dock-http
+  orgIdentifier: default
+  projectIdentifier: dockhttp1
+  properties:
+    ci:
+      codebase:
+        build: <+input>
+        connectorRef: account.Github_OAuth_1712431655753
+        repoName: karlkarl281995/dock-http
+  stages:
+    - stage:
+        identifier: build
+        name: build
+        spec:
+          caching:
+            enabled: true
+          cloneCodebase: true
+          execution:
+            steps:
+              - step:
+                  identifier: echo
+                  name: echo
+                  spec:
+                    command: echo hello world
+                  timeout: ""
+                  type: Run
+          platform:
+            arch: Amd64
+            os: Linux
+          runtime:
+            spec: {}
+            type: Cloud
+        type: CI

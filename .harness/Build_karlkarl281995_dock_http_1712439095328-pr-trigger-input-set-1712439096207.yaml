@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_karlkarl281995_dock_http_1712439095328-pr-trigger-input-set
+  identifier: Build_karlkarl281995_dock_http_1712439095328prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: dockhttp1
+  pipeline:
+    identifier: Build_karlkarl281995_dock_http_1712439095328
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
