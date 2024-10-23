@@ -14,7 +14,7 @@ For Docker and Git installations, you can simply follow the respective OS instal
 **Branch Specification:** Ensure to choose the appropriate branch specifier (e.g., Master or Main) depending on the configuration of your local repository. This ensures smooth synchronization between your local and remote repositories.
 
 If you have issues troubleshooting GIT and your local repo, refer to the [🔑 Secure GitHub Connection Guide] at the bottom of this document.
-
+.
 ---
 
 ### Section I
